@@ -1,0 +1,13 @@
+server:
+  port: ${PORT:80}
+
+vendors:
+  default: ${DEFAULT_VENDOR}
+
+  paystack:
+    secret-key: ${PAYSTACK_SECRET_KEY}
+    base-url: ${PAYSTACK_BASE_URL}
+
+  flutterwave:
+    secret-key: ${FLUTTERWAVE_SECRET_KEY}
+    base-url: ${FLUTTERWAVE_BASE_URL}
