@@ -9,3 +9,5 @@ This application integrates with Paystack and Flutterwave to perform
 - Check transaction status
 - Requery Transaction
 - Transfer
+
+The security is by adding an header called "Authorization" and the value is "test"
